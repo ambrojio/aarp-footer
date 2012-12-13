@@ -3,19 +3,29 @@
 <head>
 	<meta charset="utf-8" />
 	<title>AARP New Footer</title>
+
+	<!-- Stylesheet includes to be concatenated into global.css, or included conditionally. -->
+	<link href="/not-etc/aarp/statics/global/css/footer2013/footer2013.css" rel="stylesheet">
+	<link href="/not-etc/aarp/statics/global/css/footer2013/toolbar2013.css" rel="stylesheet">
+	<link href="/not-etc/aarp/statics/global/css/footer2013/columnLinks2013.css" rel="stylesheet">
+	<link href="/not-etc/aarp/statics/global/css/footer2013/boilerplate2013.css" rel="stylesheet">
+	
+	<link href="/not-etc/aarp/statics/global/css/components/linkList.css" rel="stylesheet">
+	
+	<!-- This one gets included seperately -->
+	<!--[if IE]>
+		<link href="/etc/aarp/statics/global/css/footer2013/fixIE.css" rel="stylesheet">
+	<![endif]-->
+	
+	<style>
+		body { font-family: 'Arial'; }
+	</style>
 </head>
 <body>
 	<div class="footer2013">
 		<div class="toolbar">
 			<ul>
-				<li class="first red"><a href="#"><span class="text"></span><img src="/dam/logo_aarp-white.png" alt="White AARP Logo" /></a></li>
-				<li class="grey"><a href="#"><span class="text">Video</span><img src="/dam/icon_video.png" alt="Video" /></a></li>
-				<li class="grey"><a href="#"><span class="text">Experts</span><img src="/dam/icon_experts.png" alt="Experts" /></a></li>
-				<li class="grey"><a href="#"><span class="text">Blog</span><img src="/dam/icon_blog.png" alt="Blog" /></a></li>
-				<li class="grey"><a href="#"><span class="text">Tools</span><img src="/dam/icon_tools.png" alt="Tools" /></a></li>
-				<li class="grey"><a href="#"><span class="text">Newsstand</span><img src="/dam/icon_news.png" alt="News" /></a></li>
-				<li class="grey"><a href="#"><span class="text">Mobile</span><img src="/dam/icon_mobile.png" alt="Mobile" /></a></li>
-				<li class="last grey"><a href="#"><span class="text">Community</span><img src="/dam/icon_community.png" alt="Community" /></a></li>
+				<li class="first red"><a href="#"><span class="text"></span><img src="/dam/logo_aarp-white.png" alt="White AARP Logo" /></a></li><li class="grey"><a href="#"><span class="text">Video</span><img src="/dam/icon_video.png" alt="Video" /></a></li><li class="grey"><a href="#"><span class="text">Experts</span><img src="/dam/icon_experts.png" alt="Experts" /></a></li><li class="grey"><a href="#"><span class="text">Blog</span><img src="/dam/icon_blog.png" alt="Blog" /></a></li><li class="grey"><a href="#"><span class="text">Tools</span><img src="/dam/icon_tools.png" alt="Tools" /></a></li><li class="grey"><a href="#"><span class="text">Newsstand</span><img src="/dam/icon_news.png" alt="News" /></a></li><li class="grey"><a href="#"><span class="text">Mobile</span><img src="/dam/icon_mobile.png" alt="Mobile" /></a></li><li class="last grey"><a href="#"><span class="text">Community</span><img src="/dam/icon_community.png" alt="Community" /></a></li>
 			</ul>
 		</div>
 		
@@ -120,5 +130,12 @@
 		
 		</div>
 	</div>
+	
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/not-etc/aarp/statics/global/js/jquery/plugins/jQuery.equalHeights.js"></script>
+	<script src="/not-etc/aarp/statics/global/js/aarp/footer2013.js"></script>
 </body>
 </html>

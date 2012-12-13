@@ -1,0 +1,44 @@
+/* Styling for Footer will be the "generic" starting off place for all Linklists */
+.linkList {
+	margin: 0 0 25px;
+}
+
+.linkList h5 {
+	margin: 0 0 6px;
+	color: #999;
+	text-transform: uppercase;
+	letter-spacing: .1em; 
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.linkList ul {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+
+.linkList ul li {
+	list-style: none;
+	margin: 0; padding: 0;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-bottom: 6px;
+}
+
+.linkList ul li a {
+	color: #4b4b4b;
+	text-decoration: none;
+}
+
+/*
+Linklists that have alternate styling should be given a class and then that class should
+be selected here, and then override styles given.
+
+EX:
+.linklist.alt01 {
+	margin: 10px;
+}
+
+This would override the generic margin of "0 0 25px"
+*/

@@ -1,0 +1,31 @@
+
+.footer2013 .boilerplate {
+	background: #dfdad6;
+	padding: 22px 20px;
+}
+
+.footer2013 .boilerplate ul {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+.footer2013 .boilerplate ul li {
+	list-style: none;
+	margin: 0 5px 0 0 ; padding: 0 5px 0 0;
+	display: inline-block;
+	border-right: 1px solid #666;
+	line-height: 1em;
+	font-size: 11px;
+}
+
+.footer2013 .boilerplate ul li.first {}
+.footer2013 .boilerplate ul li.last {
+	border: 0;
+}
+
+.footer2013 .boilerplate ul li a {
+	color: #336797;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+.footer2013 .boilerplate ul li a span.text {}

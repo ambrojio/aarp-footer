@@ -1,0 +1,37 @@
+.footer2013 {}
+
+.footer2013 .toolbar {}
+
+.footer2013 .toolbar ul {
+	list-style: none;
+	margin: 0; padding: 0;
+	background: #333;
+}
+.footer2013 .toolbar ul li {
+	list-style: none;
+	margin: 0 0 0 0; padding: 0;
+	display: inline-block;
+	font-size: 15px;
+	border-right: 1px solid #fff;
+}
+
+.footer2013 .toolbar ul li.first {
+	margin: 0;
+}
+.footer2013 .toolbar ul li.last {
+	border: 0;
+}
+
+.footer2013 .toolbar ul li.red { background: #ee3829; }
+.footer2013 .toolbar ul li.grey { background: #333; }
+
+.footer2013 .toolbar ul li a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	height: 24px; overflow: hidden;
+	padding: 8px 15px;
+}
+
+.footer2013 .toolbar ul li a span.text {}
+.footer2013 .toolbar ul li a img { vertical-align: middle; margin: 0 0 0 10px; }

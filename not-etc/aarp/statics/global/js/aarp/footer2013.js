@@ -1,0 +1,1 @@
+$('.columnLinks').equalHeights();

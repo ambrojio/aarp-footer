@@ -1,0 +1,23 @@
+.footer2013 .columnLinks {
+	background: #f6f5f3;
+	padding: 20px 30px 40px;
+}
+
+.footer2013 .columnLinks .col1,
+.footer2013 .columnLinks .col2,
+.footer2013 .columnLinks .col3,
+.footer2013 .columnLinks .col4,
+.footer2013 .columnLinks .col5,
+.footer2013 .columnLinks .col6
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 136px;
+	margin: 0 10px 0 0; padding: 0 10px 0 0;
+	border-right: 1px solid #dddcda;
+}
+
+.footer2013 .columnLinks .col6 {
+	margin: 0; padding: 0;
+	border: 0;
+}
